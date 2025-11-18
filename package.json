@@ -7,10 +7,14 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config  src/index.js"
   },
   "dependencies": {
-    "D": "^1.0.0"
+    "D": "^1.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "install": "^0.13.0",
+    "mongoose": "^8.20.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.11",
