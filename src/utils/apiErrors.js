@@ -21,3 +21,4 @@ if (stack) {
 
     }
 }
+export {ApiError}
